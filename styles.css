@@ -48,6 +48,23 @@ body {
 	user-select: none; /* Standard */
 }
 
+.bio {
+	text-align: center;
+	margin: 20px auto;
+}
+
+.bio a {
+  color: #7a00cc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.bio a:hover {
+  color: #7a00cc;
+  text-decoration: underline;
+}
+
 /* Стили для вступительного экрана */
 .entry-screen {
     position: fixed;
